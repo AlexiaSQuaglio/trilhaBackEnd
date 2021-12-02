@@ -3,3 +3,33 @@ A)	Controle de versão é a pratica de rastrear e gerenciar alterações em um c
 B)	Com essa ferramenta é possível que vários desenvolvedores consigam trabalhar com o mesmo arquivo sem sobrescrever o código do outro; o suporte a marcações dos documentos; ao ser criada uma nova versão de um documento, essa ferramenta identifica unicamente de modo que seja permitido recuperar a qualquer momento;  o Controle de Versão permite que haja uma rapidez no processamento das operações e também uma autonomia.
 
 C)	CVS, Subversion e TFS.
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Desafio 2
+a) POO é um paradigma de programação que se basea no conceito de objetos, onde contem seus atributos que são os dados e os metodos que 
+são os procedimentos feitos dentro do objeto, seus  pilares são Abstração, Encapsulamento, Herança e Polimorfismo.
+
+b) Abstração  é  usada para  fazer a definição das entidad no mundo real, considerando suas caracteristicas e ações , por exemplo, a entidade Carro tem como caracteristica sua cor e sua marca  e tem como ações ligar, parar , acelerar  e desligar.
+
+c)  Encapsulamento é usada para esconder os detalhes de implementação de uma classe e apenas expondo operações seguras ,  a classe ficando no tipo private e só sendo possível de acessar usando os métodos getters e setters, por exemplo:
+private String carro; 
+
+public String getCarro(){
+        return carro;
+ }
+ public void setCarro (String carro){
+        this.carro=carro;
+ }
+ 
+ d) Herança igual como na vida real é o método onde uma classe herda os atributos de uma outra classe , podendo ser visualizadas apenas os atributos e métodos do tipo public e protected, por exemplo,  na classe Funcionario estão todos os métodos e atributos ede um funcionário e a classe Gerente irá herdar da classe Funcionario os métodos e atributos:
+ public class Gerente extends Funcionario 
+ 
+ e) Polimorfismo é o princípio  onde duas ou mais classes que são derivadas de uma mesma superclasse podem invocar métodos que possuem a mesma identificação , assinatura mas comportamentos diferentes para cada classe derivada podendo ser usada para referenciar um objeto da supercalsse.
+ 
+ f) 1- os programas feitos em POO são fáceis de ler  e entender;
+ 2- os códigos em POO são fáceis de modificar;
+ 3 -  Pode ser mais rápido de se programar em  POO;
+ 4 - Sendo baseado em objetos e  classes, o código acaba sendo mais independente;
+ 5 - O código permite que se posso reutilizar métodos e atributos usados anteriormente e não precisando repitilos.
