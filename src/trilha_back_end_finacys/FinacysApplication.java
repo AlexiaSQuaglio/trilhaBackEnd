@@ -31,6 +31,7 @@ public class FinacysApplication {
 		categoria1.setDescription("Recebimento de salario");
 		categoria1.setId(4);
 		categoria1.setName("Salario");
+		System.out.println(categoria1);
 
 		Lancamento lancamento2 = new Lancamento();
 		lancamento2.setId(3);
@@ -41,6 +42,10 @@ public class FinacysApplication {
 		lancamento2.setType("revenue");
 		lancamento2.setDate("15/09/2021");
 		lancamento2.setAmount("4405.49");
+		System.out.println(lancamento2);
+
+		
+
 	}
 
 }
