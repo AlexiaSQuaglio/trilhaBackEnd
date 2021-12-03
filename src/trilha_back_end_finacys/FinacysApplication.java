@@ -33,9 +33,8 @@ public class FinacysApplication {
 		categoria1.setName("Salario");
 		System.out.println("Categoria");
 		System.out.println(categoria1);
-		System.out.println(=============================================);
-		
-
+		System.out.println("=========================================================");
+	
 		Lancamento lancamento2 = new Lancamento();
 		lancamento2.setId(3);
 		lancamento2.setName("Salario na Empresa x");
