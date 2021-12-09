@@ -36,9 +36,12 @@ public String getCarro(){
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Desafio 3
 a)	 I. HTTP (Hypertext Transfer Protocol) é um protocolo de transferência de comunicação entre um navegador e um servidor web, sendo um dos principais o WWW (World Wide Web). 
+
 II.	Rest é um protocolo para troca de mensagens (XML ou JSON) que podem usar HTTP para transportar as mensagens.
+
 Web API é uma interface de programação de aplicações tanto para um servidor quanto um navegador.
 III.	 	Swagger é um framework para descrição, consumo e visualização de serviços Restful, tendo como objetivo permitir que a documentação evolua na mesma velocidades que a implementação. 
+
 b)	Get – requisição por onde nós pedimos a representação de um recurso, por exemplo, html, xml, json e etc.;
 Post – método utilizado quando desejamos criar um recurso;
 Put – método que requisita que um recurso seja guardado na URI fornecida e se o recurso já existir o mesmo será atualizado;
